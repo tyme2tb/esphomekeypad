@@ -6,7 +6,7 @@ class KeypadSensor : public Component, public Sensor {
     public:
 
     static const byte n_rows = 4;
-    static const byte n_cols = 3;
+    static const byte n_cols = 4;
 
     bool keyPublished = false;
 
